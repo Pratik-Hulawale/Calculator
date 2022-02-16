@@ -1,0 +1,129 @@
+. {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.cal{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-sizing: border-box;
+}
+
+.calc {
+    width: 300px;
+    height: 357px;
+    background-color: #BFFFF0;
+  
+}
+
+.screen {
+    width: 300px;
+    height: 50px;
+    background-color:rgb(171, 219, 231);
+    border: 2px solid black;
+    box-sizing: border-box;
+    font-size: 28px;
+    display: flex;
+    align-items: center;
+}
+
+/* .screen{
+
+    background-color:rgb(171, 219, 231);
+
+    justify-content: left;
+
+    color: black;
+
+    font-size: medium;
+
+    width: 50%;
+
+    height: 30%;
+
+    cursor: default;
+
+    padding: 10px; 
+
+    padding-left: 40%;
+
+    margin: auto;
+
+    margin-bottom: 10px;
+
+} */
+
+
+
+.btnwrap {
+    /* display: flex; */
+}
+
+.btn{
+    width: 60px;
+    height: 70px;
+    font-size: 20px;
+
+}
+
+.btn {
+    background: #ECE9E6;
+    background-image: -webkit-linear-gradient(top, #ECE9E6, #FFFFFF);
+    background-image: -moz-linear-gradient(top, #ECE9E6, #FFFFFF);
+    background-image: -ms-linear-gradient(top, #ECE9E6, #FFFFFF);
+    background-image: -o-linear-gradient(top, #ECE9E6, #FFFFFF);
+    background-image: linear-gradient(to bottom, #ECE9E6, #FFFFFF);
+    -webkit-border-radius: 7;
+    -moz-border-radius: 7;
+    border-radius: 7px;
+    -webkit-box-shadow: 0px 1px 2px #666666;
+    -moz-box-shadow: 0px 1px 2px #666666;
+    box-shadow: 0px 1px 2px #666666;
+    font-family: Arial;
+    color: #000000;
+    font-size: 20px;
+    padding: 10px 20px 10px 20px;
+    border: solid #1f628d 1px;
+    text-decoration: none;
+  }
+  
+  .btn:hover {
+    background: #FFEEEE;
+    background-image: -webkit-linear-gradient(top, #FFEEEE, #DDEFBB);
+    background-image: -moz-linear-gradient(top, #FFEEEE, #DDEFBB);
+    background-image: -ms-linear-gradient(top, #FFEEEE, #DDEFBB);
+    background-image: -o-linear-gradient(top, #FFEEEE, #DDEFBB);
+    background-image: linear-gradient(to bottom, #FFEEEE, #DDEFBB);
+    text-decoration: none;
+  }
+
+
+
+
+
+button{
+    padding: 20px;
+    margin: 3px;
+}
+
+.row4{
+    display: flex;
+}
+/* 
+.zero{
+    flex: 0.58;
+}
+
+.comm{
+    flex: 0.1;
+} */
+
+.row1, .row3, .row2{
+display: flex;
+}
+
+
